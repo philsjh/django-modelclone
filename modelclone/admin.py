@@ -6,7 +6,7 @@ except ImportError:
     # django < 1.7
     from django.contrib.admin.util import unquote
 from django.urls import re_path as url
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.utils.translation import gettext as _
 from django.utils.translation import gettext_lazy as lazy
 from django.utils.html import escape
